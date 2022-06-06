@@ -1,0 +1,32 @@
+<template>
+  <div id="app">
+    <Example/>
+  </div>
+</template>
+
+<script>
+import Example from "./components/Example";
+
+export default {
+  name: "App",
+  components: {
+    Example
+  }
+};
+</script>
+
+<style>
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  height: 100%;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+</style>
